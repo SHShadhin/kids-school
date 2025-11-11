@@ -118,3 +118,46 @@ hr {
 
 /* header section end  */
 
+/* banner section start */
+.banner {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 34px;
+    margin-bottom: 60px;
+}
+.banner-content>h2 {
+    font-size: 50px;
+}
+.banner-content p {
+    font-size: 18px;
+    margin: 24px 0;
+}
+.banner-btn {
+    background-color: rgba(17, 17, 17, 1);
+}
+
+/* responsive banner  */
+@media screen and (max-width: 576px) {
+    .banner {
+        flex-direction: column-reverse;
+        margin: 0 20px;
+        margin-top: 30px;
+    }
+    .banner-content>h2 {
+    font-size: 30px;
+}
+.banner-content p {
+    font-size: 14px;
+    margin: 18px 0;
+}
+    .banner-img img {
+        width: 100%;
+    }
+    .banner-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+/* banner section end  */
