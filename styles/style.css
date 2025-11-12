@@ -10,10 +10,10 @@
 }
 
 /* shared styles start */
-body {
+/* body {
   max-width: 1350px;
   margin: 0 auto;
-}
+} */
 .orange {
   color: rgba(254, 163, 1, 1);
 }
@@ -265,9 +265,62 @@ hr {
     margin: 0 20px;
   }
 }
+/* card section end  */
 
 
 
+
+/* footer section start  */
+footer {
+  background-color: rgba(1, 172, 253, 1);
+}
+.school-logo {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.school-logo img {
+  filter: brightness(120%);
+}
+.logo-description {
+  margin-top: 30px;
+  font-size: 14px;
+  width: 300px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 120px;
+  padding-bottom: 180px;
+}
+
+.footer-items h2 {
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.footer-items h4 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.footer-media h2 {
+  margin-bottom: 30px;
+}
+
+
+/* responsive footer section */
+@media screen and (max-width:576px) {
+  .footer {
+    flex-direction: column;
+    padding: 60px 20px;
+  }
+  .logo-description {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+/* footer section end  */
 
 
 
